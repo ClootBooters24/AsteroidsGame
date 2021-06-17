@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="olcConsoleGameEngine.h" />
+    <ClInclude Include="olcConsoleGameEngineGL.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AsteroidGame.cpp" />
