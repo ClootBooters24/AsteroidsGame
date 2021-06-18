@@ -1614,7 +1614,7 @@ private:
 
 				// Update Title & Present Screen Buffer
 				wchar_t sNewTitle[256];
-				swprintf_s(sNewTitle, 256, L"OneLoneCoder.com - Console Game Engine (OGL) - %s - FPS: %3.2f", m_sAppName.c_str(), 1.0f / fElapsedTime);
+				swprintf_s(sNewTitle, 256, L"% s - FPS: % 3.2f", m_sAppName.c_str(), 1.0f / fElapsedTime);
 				SetWindowText(m_hWnd, sNewTitle);
 
 				SwapBuffers(m_hDevCtx);
